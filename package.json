@@ -1,0 +1,11 @@
+{
+  "name": "just-join-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "task.js",
+  "scripts": {
+    "start": "nodemon task.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
