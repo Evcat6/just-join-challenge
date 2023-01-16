@@ -64,15 +64,12 @@ const html =
         const changer = () => {
             if(i === 0) {
                 i++;
-                title.innerHTML = titleValues[i].title;
-                title.style.color = titleValues[i].color;
-                title.style.backgroundColor = titleValues[i].background;
             }else {
                 i--;
-                title.innerHTML = titleValues[i].title;
-                title.style.color = titleValues[i].color;
-                title.style.backgroundColor = titleValues[i].background;
             }
+             title.innerHTML = titleValues[i].title;
+             title.style.color = titleValues[i].color;
+             title.style.backgroundColor = titleValues[i].background;
         }
         button.addEventListener("click", changer)
     </script>
